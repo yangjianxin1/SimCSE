@@ -102,6 +102,7 @@ dropout为0.2的时候，训练效果比0.1与0.3更好，有可能dropout=0.1�
 - https://kexue.fm/archives/8348
 - https://github.com/bojone/SimCSE
 
+
 ## TODO
 - 排查有监督学习的效果不符合预期的原因
 
