@@ -1,6 +1,8 @@
 # SimCSE复现
 
 ## 项目描述
+微信公众号【YeungNLP】文章：[SimCSE：简单有效的句向量对比学习方法](https://mp.weixin.qq.com/s/lfM3RsiWb5_gU-J1tBJhdA)
+
 SimCSE是一种简单但是很巧妙的NLP对比学习方法，创新性地引入Dropout的方式，对样本添加噪声，从而达到对正样本增强的目的。
 该框架的训练目的为：对于batch中的每个样本，拉近其与正样本之间的距离，拉远其与负样本之间的距离，使得模型能够在大规模无监督语料（也可以使用有监督的语料）中学习到文本相似关系。
 详见论文：[Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821)
