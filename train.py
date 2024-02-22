@@ -140,7 +140,7 @@ def load_train_data_supervised(tokenizer, args):
     feature_list = []
     df = pd.read_csv(args.train_file, sep=',')
     logger.info("len of train data:{}".format(len(df)))
-    rows = df.to_dict('reocrds')
+    rows = df.to_dict('records')
     # rows = rows[:10000]
     for row in tqdm(rows):
         sent0 = row['sent0']
